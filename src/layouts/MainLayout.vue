@@ -64,7 +64,7 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <p class="header">Termékek</p>
-                    <p class="asd">Alábbi képekre kattintva, megtekinthetőek a termékek és a hozzátartozó árak.</p>
+                    <p>Alábbi képekre kattintva, megtekinthetőek a termékek és a hozzátartozó árak.</p>
                   </div>
                 </div>
                 <div class="row">
