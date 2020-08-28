@@ -11,10 +11,10 @@
                   <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                     <q-btn class="header-button" flat style="color: #E9E5DC" label="ARTICLE LISTA" />
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                  <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
                     <q-btn class="header-button" flat style="color: #E9E5DC" label="Akciók" />
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <q-btn class="header-button" flat style="color: #E9E5DC" label="Burkolási modulok" />
                   </div>
                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
