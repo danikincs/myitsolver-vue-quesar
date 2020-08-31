@@ -9,7 +9,7 @@
               <div class="col-lg-8 col-sm-12 col-xs-12 btn-group">
                 <div class="row" style="text-align:center">
                   <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <q-btn class="header-button" flat style="color: #E9E5DC" label="ARTICLE LISTA" />
+                    <q-btn class="header-button" flat style="color: #E9E5DC" label="ARTICLE LISTA" v-on:click="redirectToArticle" />
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
                     <q-btn class="header-button" flat style="color: #E9E5DC" label="Akciók" />
@@ -152,6 +152,11 @@ export default {
       dense: false,
       lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       drawer: true
+    }
+  },
+  methods: {
+    redirectToArticle: function (event) {
+      this.$router.push('/list')
     }
   }
 }
